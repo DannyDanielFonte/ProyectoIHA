@@ -2,6 +2,15 @@ body{
     max-width: 1000px;/*  ancho maximo*/
     margin:0 auto;/* margenes */
 }
+body{
+    background-image: url(../IMAGENES/fondo.jpg.webp);
+    border: 1px; 
+    border-style: solid;
+    border-color: deepskyblue;
+}
+
+
+
 header nav div a img{
     width: 90px;
 }
