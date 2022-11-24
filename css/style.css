@@ -4,21 +4,26 @@ body{
 }
 body{
     background-image: url(../IMAGENES/fondo.jpg.webp);
-    border: 1px; 
-    border-style: solid;
-    border-color: deepskyblue;
-}
+    background-size: cover;
+    /* background: ; */  
 
+}
 
 
 header nav div a img{
     width: 90px;
 }
+header nav div div ul li{
+color: aliceblue;
+font-size: 20px;
+padding: 5px;
+
+} 
 .clearfix{
 margin-top : 5px;
 margin-bottom: 5px;
 padding: 20px;
-background-color: rgb(166, 190, 206);
+background-color:  rgba(241, 247, 246, 0.767);
 }
 section div h2 {
     padding: 10px;
@@ -34,13 +39,13 @@ section div p{
 .seccion2, .seccion3, .seccion4{
     display: inline-flex;
     width: 100%;
-    background-color: rgba(116, 168, 166, 0.767);
+ /*    background-color:   rgba(241, 247, 246, 0.767); */
 }
 .card{
     margin: 7px;
     }
 .card-body{
-    background-color: rgb(146, 141, 141);
+    background-color: rgba(202, 201, 201, 0.705);
 }
 .card-text{
     height: 270px;
@@ -71,15 +76,12 @@ footer{
     display: inline-block
 }
 .derecho{
-    width: 30%;
+
     text-align: center;
     font-size: medium;
     padding: 30px;
     line-height: 20px;
-}
-.redes{
-    width: 30%;
-    padding: 20px;
+
 }
 footer a{
         list-style-type: none;
